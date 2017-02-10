@@ -1,0 +1,14 @@
+article {
+				text-align: center;
+			}
+span {
+				text-decoration: underline;
+				color: DarkBlue
+     }
+a {
+	font-size: 19.2px;
+	color: DarkGreen;
+	}
+	a:hover {
+		text-decoration: none;
+	}
