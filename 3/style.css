@@ -1,0 +1,90 @@
+* {
+	padding:0; 
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.wrapper {
+			width: 1200px;
+			margin: 0 auto;
+			border-left: 2px dotted;
+			border-right: 2px dotted;
+			}
+.logo {
+			display: block;
+			width: 180px;
+			text-align: center;
+			padding-left: 30px;
+			text-decoration: none;
+			color: #000;
+	}
+	.logo span {
+		display: inline-block;
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+	.header-nav {
+		 border-style: solid;
+		 border-color: #000;
+		 border-width: 4px 0;
+		 padding-left: 30px;
+		 margin-top: 40px;
+	}
+
+	nav ul {
+		list-style: none;
+	}
+	nav li {
+		display: inline-block;
+	}
+	.header-nav a {
+		font-size: 20px;
+		text-decoration: none;
+		display: inline-block;
+		padding: 10px 20px;
+		color: #000
+	}
+	.header-nav a:hover {
+		background-color: #000;
+		color: #fff;
+	}
+	.content {
+		padding: 30px;
+	}
+	h1 {
+		font-size: 40px;
+			}
+	h1, h2, p {
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	p {
+		font-size: 22px;
+	}
+	.content img {
+		width: 100%;
+	}
+	h2 {
+		font-size: 30px;
+		}
+	footer {
+		background-color: #000;
+		color: #fff;
+		padding: 30px;
+	}
+	.footer-nav {
+		text-align: center;
+		font-size: 12px;
+	}
+	.footer-nav li{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.footer-nav a {
+		color: #fff;
+		text-decoration: none;
+	}
+	.footer-nav a:hover {
+		border-bottom: dashed;
+		border-width: 1px;
+	}
