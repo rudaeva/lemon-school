@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Arial;
+		}
+		.wrapper {
+			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		header {
+			width: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			background-color: white;
+			box-shadow: 0 0 10px 0 rgba(0,0,0,.8);
+			z-index: 1;
+		}
+		ul {
+			list-style: none;
+			background-color: white;
+			} 
+		a {
+			display: inline-block;
+			text-decoration: none;
+			width: 100%;
+			color: black;
+			padding: 5px 10px;
+			}
+		a:hover {
+			background-color: grey;
+		}
+		.main {
+			width: 600px;
+			margin: 0 auto;
+			background-color: white;
+			}
+		.main::after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.main > li {
+			position: relative;
+			float: left;
+			width: 20%;
+			text-align: center;
+		}
+		.main > li >ul {
+			position: absolute;
+			left: 0;
+			width: 100%;
+			display: none;
+		}
+		.main > li:hover >ul {
+			display: block;
+		}
+		.container {
+			padding-top:  30px;
+			}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+				<ul class="main">
+					<li><a href="#">main 1</a></li>
+					<li><a href="#">main 2</a>
+						<ul>
+							<li><a href="#">categ_1</a></li>
+							<li><a href="#">categ_2</a></li>
+							<li><a href="#">categ_3</a></li>
+						</ul>
+					</li>
+					<li><a href="#">main 3</a></li>
+					<li><a href="#">main 4</a>
+						<ul>
+							<li><a href="#">categ_1</a></li>
+							<li><a href="#">categ_2</a></li>
+							<li><a href="#">categ_3</a></li>
+						</ul>
+					</li>
+					<li><a href="#">main 5</a></li>
+				</ul>
+		</header>
+		<div class="container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga hic optio, aliquam officiis eos autem, unde. Ipsum, magni, distinctio molestiae, excepturi cum odit tempora enim dolorum labore quam at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit, excepturi quae molestias similique nihil reprehenderit assumenda. Beatae tempore, maxime cumque voluptatibus inventore animi voluptatum dolore ullam enim. Harum, inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit amet porro vero corporis blanditiis modi nemo, aliquam soluta dicta eum saepe sapiente quibusdam est dignissimos laborum mollitia consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nisi quis, magnam maiores amet repudiandae quod laboriosam quibusdam, magni. Molestiae mollitia explicabo similique ea distinctio. Odit fugit quo, expedita quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus, aperiam similique veniam nesciunt. Mollitia, commodi eius fugiat possimus id rerum ducimus deserunt, architecto temporibus tempore natus tenetur nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis obcaecati ex voluptas nam. Voluptas voluptate veritatis tempore commodi, cupiditate possimus nihil temporibus nisi blanditiis. Laboriosam saepe ab dicta, fugit magnam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga hic optio, aliquam officiis eos autem, unde. Ipsum, magni, distinctio molestiae, excepturi cum odit tempora enim dolorum labore quam at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit, excepturi quae molestias similique nihil reprehenderit assumenda. Beatae tempore, maxime cumque voluptatibus inventore animi voluptatum dolore ullam enim. Harum, inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit amet porro vero corporis blanditiis modi nemo, aliquam soluta dicta eum saepe sapiente quibusdam est dignissimos laborum mollitia consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nisi quis, magnam maiores amet repudiandae quod laboriosam quibusdam, magni. Molestiae mollitia explicabo similique ea distinctio. Odit fugit quo, expedita quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus, aperiam similique veniam nesciunt. Mollitia, commodi eius fugiat possimus id rerum ducimus deserunt, architecto temporibus tempore natus tenetur nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis obcaecati ex voluptas nam. Voluptas voluptate veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga hic optio, aliquam officiis eos autem, unde. Ipsum, magni, distinctio molestiae, excepturi cum odit tempora enim dolorum labore quam at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit, excepturi quae molestias similique nihil reprehenderit assumenda. Beatae tempore, maxime cumque voluptatibus inventore animi voluptatum dolore ullam enim. Harum, inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit amet porro vero corporis blanditiis modi nemo, aliquam soluta dicta eum saepe sapiente quibusdam est dignissimos laborum mollitia consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nisi quis, magnam maiores amet repudiandae quod laboriosam quibusdam, magni. Molestiae mollitia explicabo similique ea distinctio. Odit fugit quo, expedita quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus, aperiam similique veniam nesciunt. Mollitia, commodi eius fugiat possimus id rerum ducimus deserunt, architecto temporibus tempore natus tenetur nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis obcaecati ex voluptas nam. Voluptas voluptate veritatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga hic optio, aliquam officiis eos autem, unde. Ipsum, magni, distinctio molestiae, excepturi cum odit tempora enim dolorum labore quam at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit, excepturi quae molestias similique nihil reprehenderit assumenda. Beatae tempore, maxime cumque voluptatibus inventore animi voluptatum dolore ullam enim. Harum, inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit amet porro vero corporis blanditiis modi nemo, aliquam soluta dicta eum saepe sapiente quibusdam est dignissimos laborum mollitia consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nisi quis, magnam maiores amet repudiandae quod laboriosam quibusdam, magni. Molestiae mollitia explicabo similique ea distinctio. Odit fugit quo, expedita quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus, aperiam similique veniam nesciunt. Mollitia, commodi eius fugiat possimus id rerum ducimus deserunt, architecto temporibus tempore natus tenetur nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis obcaecati ex voluptas nam. Voluptas voluptate veritatis tempore commodi, cupiditate possimus nihil temporibus nisi blanditiis. Laboriosam saepe ab dicta, fugit magnam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga hic optio, aliquam officiis eos autem, unde. Ipsum, magni, distinctio molestiae, excepturi cum odit tempora enim dolorum labore quam at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit, excepturi quae molestias similique nihil reprehenderit assumenda. Beatae tempore, maxime cumque voluptatibus inventore animi voluptatum dolore ullam enim. Harum, inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit amet porro vero corporis blanditiis modi nemo, aliquam soluta dicta eum saepe sapiente quibusdam est dignissimos laborum mollitia consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nisi quis, magnam maiores amet repudiandae quod laboriosam quibusdam, magni. Molestiae mollitia explicabo similique ea distinctio. Odit fugit quo, expedita quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus, aperiam similique veniam nesciunt. Mollitia, commodi eius fugiat possimus id rerum ducimus deserunt, architecto temporibus tempore natus tenetur nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis obcaecati ex voluptas nam. Voluptas voluptate veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga hic optio, aliquam officiis eos autem, unde. Ipsum, magni, distinctio molestiae, excepturi cum odit tempora enim dolorum labore quam at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit, excepturi quae molestias similique nihil reprehenderit assumenda. Beatae tempore, maxime cumque voluptatibus inventore animi voluptatum dolore ullam enim. Harum, inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit amet porro vero corporis blanditiis modi nemo, aliquam soluta dicta eum saepe sapiente quibusdam est dignissimos laborum mollitia consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nisi quis, magnam maiores amet repudiandae quod laboriosam quibusdam, magni. Molestiae mollitia explicabo similique ea distinctio. Odit fugit quo, expedita quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus, aperiam similique veniam nesciunt. Mollitia, commodi eius fugiat possimus id rerum ducimus deserunt, architecto temporibus tempore natus tenetur nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis obcaecati ex voluptas nam. Voluptas voluptate veritatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga hic optio, aliquam officiis eos autem, unde. Ipsum, magni, distinctio molestiae, excepturi cum odit tempora enim dolorum labore quam at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit, excepturi quae molestias similique nihil reprehenderit assumenda. Beatae tempore, maxime cumque voluptatibus inventore animi voluptatum dolore ullam enim. Harum, inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit amet porro vero corporis blanditiis modi nemo, aliquam soluta dicta eum saepe sapiente quibusdam est dignissimos laborum mollitia consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nisi quis, magnam maiores amet repudiandae quod laboriosam quibusdam, magni. Molestiae mollitia explicabo similique ea distinctio. Odit fugit quo, expedita quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus, aperiam similique veniam nesciunt. Mollitia, commodi eius fugiat possimus id rerum ducimus deserunt, architecto temporibus tempore natus tenetur nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis obcaecati ex voluptas nam. Voluptas voluptate veritatis tempore commodi, cupiditate possimus nihil temporibus nisi blanditiis. Laboriosam saepe ab dicta, fugit magnam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga hic optio, aliquam officiis eos autem, unde. Ipsum, magni, distinctio molestiae, excepturi cum odit tempora enim dolorum labore quam at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit, excepturi quae molestias similique nihil reprehenderit assumenda. Beatae tempore, maxime cumque voluptatibus inventore animi voluptatum dolore ullam enim. Harum, inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit amet porro vero corporis blanditiis modi nemo, aliquam soluta dicta eum saepe sapiente quibusdam est dignissimos laborum mollitia consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nisi quis, magnam maiores amet repudiandae quod laboriosam quibusdam, magni. Molestiae mollitia explicabo similique ea distinctio. Odit fugit quo, expedita quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus, aperiam similique veniam nesciunt. Mollitia, commodi eius fugiat possimus id rerum ducimus deserunt, architecto temporibus tempore natus tenetur nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis obcaecati ex voluptas nam. Voluptas voluptate veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga hic optio, aliquam officiis eos autem, unde. Ipsum, magni, distinctio molestiae, excepturi cum odit tempora enim dolorum labore quam at. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit, excepturi quae molestias similique nihil reprehenderit assumenda. Beatae tempore, maxime cumque voluptatibus inventore animi voluptatum dolore ullam enim. Harum, inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit amet porro vero corporis blanditiis modi nemo, aliquam soluta dicta eum saepe sapiente quibusdam est dignissimos laborum mollitia consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nisi quis, magnam maiores amet repudiandae quod laboriosam quibusdam, magni. Molestiae mollitia explicabo similique ea distinctio. Odit fugit quo, expedita quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus, aperiam similique veniam nesciunt. Mollitia, commodi eius fugiat possimus id rerum ducimus deserunt, architecto temporibus tempore natus tenetur nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis obcaecati ex voluptas nam. Voluptas voluptate veritatis.</div>
+	</div>
+</body>
+</html>
