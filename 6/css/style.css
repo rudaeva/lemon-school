@@ -1,0 +1,242 @@
+	@import 'reset.css';
+	body {
+		width: 100%;
+		}
+	.container {
+		background-color: #f1f1f1;
+		}
+	.wrapper {
+		background-color: #69d2e7;
+		border-top: 5px solid #fa6900;
+		}
+	.content {
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	.logo {
+		display: inline-block;
+		}
+	.logo img {
+		float: left;
+		}
+	.logo div {
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 5px;
+		margin-top: -2px;
+		}
+	.compani_name,
+	.compani_description {
+		display: block;
+		white-space: nowrap;
+		}
+	.compani_name {
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: 700;
+		}
+	.compani_description {
+		font-size: 17px;
+		text-transform: capitalize;
+		}
+	header {
+   	padding-top: 35px;
+		}
+  .hello {
+	 	text-align: center;
+	 	color: #fff;
+	 	text-transform: uppercase;
+	 	font-weight: 700;
+	 	padding-top: 94px;
+	 	padding-bottom: 180px;
+ 		}
+  .hello_title {
+		font-size: 84px;
+		line-height: 1em;
+ 		}
+  .hello_description {
+ 		font-size: 31px;
+ 		line-height: 1em;
+	 	}
+	.about-wrapper {
+		max-width: 835px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #fff;
+		border-radius: 8px;
+		text-align: left;
+		padding-left: 35px;
+		padding-right: 31px;
+		margin-top: -100px;
+		box-shadow: 0px 0px 20px 0px rgba(0,0,0,.2)
+		}
+	.about-wrapper h2 {
+		text-align: center;
+		font-size: 36px;
+		text-transform: uppercase;
+		padding-top: 47px;
+		padding-bottom: 27px;
+		}
+	.about-h2 {
+		max-width: 383px;
+		border-bottom: 1px solid #d5d5d5;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	.about-wrapper p {
+		padding-top: 36px;
+		padding-bottom: 66px;
+		font-size: 22px;
+		line-height: 34px;
+		}
+	.netting {
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 65px;
+		padding-bottom: 45px;
+		}
+	.wrapper-picture {
+		float: left;
+		width: 33.33%;
+  	text-align: center;
+		}
+	.picture {
+		width: 163px;
+		height: 163px;
+		background-color: #fff;
+		border-radius: 8px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	.picture-img {
+		padding-top: 35px;
+		}
+	.wrapper-picture p {
+		padding-top: 29px;
+		font-size: 24px;
+		padding-left: 50px;
+    padding-right: 55px;
+		}
+	.orange {
+		clear: both;
+		background-color: #fa6900;
+		margin-top: 231px;
+		position: relative;
+		overflow: hidden;
+		}
+	.content-or {
+		position: relative;
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	.text {
+		max-width: 425px;
+		color: #fff;
+		padding-top: 143px;
+		padding-bottom: 122px;
+  	float: left;
+		}
+	.text h3 {
+		font-size: 26px;
+		font-weight: bold;
+		}
+	.text h4 {
+		font-size: 22px;
+		padding-bottom: 27px;
+		}
+	.text p {
+		padding-top: 23px;
+		}
+	.sfera {
+		width: 834px;
+		height: 834px;
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		z-index: 1;
+		float: left;
+		left: 50%;
+		margin-top: -131px;
+		}
+	.sfera::after {
+		content: '';
+		display: block;
+		background-color: #fff;
+		position: absolute;
+		height: 100%;
+		width: 99999px;
+		top: 0;
+		left: 617px;
+		}
+	.sfera-img {
+		position: absolute;
+		top: 203px;
+		left: 94px;
+		}
+	.info {
+		padding-top: 92px;
+		padding-bottom: 55px;
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	.info-company {
+		max-width: 455px;
+		margin-left: 100px;
+		float: left;
+		display: inline-block;
+		}
+	.info-con {
+		padding-top: 57px;
+		line-height: 26px;
+		}
+	.info-con p {
+		padding-top: 37px; 
+		}
+	.posts {
+		display: block;
+		padding-left: 725px;
+		}
+	.post {
+		padding-top: 31px;
+		}
+	.posts h3 {
+		font-size: 26px;
+		padding-bottom: 24px;
+		}
+	.post-img {
+		float: left;
+		width: 93px;
+		height: 93px;
+		background-color: #fff;
+		box-shadow: 0px 0px 10px 0px rgba(0,0,0,.2);
+		}
+	.mini-sfera {
+		padding-top: 10px;
+		padding-left: 5px;
+		}
+	.post-con {
+  	font-size: 14px;
+  	padding-left: 122px;
+		}
+	.post-con p {
+		padding-top: 21px;
+		}
+	footer {
+		clear: both;
+		background-color: #69d2e7;
+		}
+	.cellar {
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 14px;
+		padding-top: 27px;
+		padding-bottom: 27px;
+		}
+	footer p {
+		float: right;
+		}
