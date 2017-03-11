@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			font-family: arial, sans-serif;
+			}
+		ul.ferst {
+			color: #333;
+		}
+		ul.star li {
+			list-style: none;
+			color: black;
+			}
+		ul.star li::before {
+			counter-reset:inherit;
+			content: '★ '; 
+		}
+		ul.heart li::before {
+			counter-reset:inherit;
+			content: '❤ ';
+		}
+		ul.sun li::before {
+			counter-reset:inherit;
+			content: '☀ ';
+		}
+		span {
+			text-decoration: underline;
+			}
+		a {
+			text-decoration: none;
+			color: black;
+			}
+		a.second {
+			text-decoration: underline;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+
+	</style>
+</head>
+<body>
+	<ul class="ferst">
+		<li>Lorem ipsum dolor sit amet, consectetur.</li>
+		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur.</li>
+		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+		<li>Lorem ipsum dolor sit amet.
+			<ul class="star">
+					<li><a href="#"><span>Lorem ips</span>um dolor.</a></li>
+					<li><a href="#" class="second">Lorem ipsum dolor sit.</a>
+						<ul class="heart">
+							<li><a href="#"><span>Lorem ipsum dolor sit am</span>et, consectetur adipisicing elit.</a></li>
+							<li><a href="#"><span>Lorem ipsum dolor sit am</span>et, consectetur adipisicing elit.</a></li>
+							<li><a href="#"><span>Lorem ipsum dolor sit am</span>et, consectetur adipisicing elit.</a>
+								<ul class="sun">
+									<li><a href="#"><span>Lorem ipsum dolor si</span>t amet, consectetur.</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><span>Lorem </span>ipsum.</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><span>Lorem ip</span>sum dolor.</a></li>
+				</ul>	
+		</li>
+		<li>P.S.Lorem ipsum dolor sit amet, consectetur.</li>
+		<li>P.P.S.Lorem ipsum dolor sit amet, consectetur.</li>
+	</ul>
+</body>
+</html>
