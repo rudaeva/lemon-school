@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			}
+		.container {
+			width: 296px;
+			height: 83px;
+			background-color: #8bb5f4;
+			position: absolute;
+			left: 45%;
+			top: 45%;
+			overflow: hidden;
+			}
+		.shadow {
+			color: #fff; 
+			position: absolute;
+			left: 19px;
+			top: 22px;
+			font-size: 40px;
+			font-family: arial;
+			font-weight: bold;
+			line-height: 40px;
+			}
+		.shadow::after {
+			content: 'Long shadow';
+			position: absolute;
+			left: 0;
+			text-shadow: 1px 1px #337ded,
+									 2px 2px #337ded,
+									 3px 3px #337ded,
+									 4px 4px #337ded,
+									 5px 5px #337ded,
+									 6px 6px #337ded,
+									 7px 7px #337ded,
+									 8px 8px #337ded,
+									 9px 9px #337ded,
+									 10px 10px #337ded,
+									 11px 11px #337ded,
+									 12px 12px #337ded,
+									 13px 13px #337ded,
+									 14px 14px #337ded,
+									 15px 15px #337ded,
+									 16px 16px #337ded,
+									 17px 17px #337ded,
+									 18px 18px #337ded,
+									 19px 19px #337ded,
+									 20px 20px #337ded,
+									 21px 21px #337ded,
+									 22px 22px #337ded,
+									 23px 24px #337ded,
+									 24px 24px #337ded,
+									 25px 25px #337ded,
+									 26px 26px #337ded,
+									 27px 27px #337ded,
+									 28px 28px #337ded,
+									 29px 29px #337ded,
+									 30px 30px #337ded,
+									 31px 31px #337ded,
+									 32px 32px #337ded,
+									 33px 33px #337ded,
+									 34px 34px #337ded,
+									 35px 35px #337ded,
+									 36px 36px #337ded,
+									 37px 37px #337ded,
+									 38px 38px #337ded,
+									 39px 39px #337ded,
+									 40px 40px #337ded,
+									 41px 41px #337ded,
+									 42px 42px #337ded,
+									 43px 43px #337ded,
+									 44px 44px #337ded,
+									 45px 45px #337ded,
+									 46px 46px #337ded,
+									 47px 47px #337ded,
+									 48px 48px #337ded,
+									 49px 49px #337ded,
+									 50px 50px #337ded,
+									 51px 51px #337ded;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p class="shadow">Long shadow</p>
+	</div>
+</body>
+</html>

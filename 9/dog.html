@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			}
+		.content {
+			width: 537px;
+			height: 529px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 5%;
+		}
+		.picture {
+			width: 537px;
+			height: 529px;
+			position: absolute;
+			top: 5%;
+			background-color: #000;
+		}
+		.picture::after{
+			content: '';
+			position: absolute;
+			left: 0 ;
+			right: 0 ;
+			width: 537px;
+			height: 529px;
+			background-color: rgba(3, 3, 136, 0.3);
+		}
+		.picture:hover::after {
+			background-color: rgba(3, 3, 136, 0.6);
+		}
+		.text {
+			font-size: 40px;
+			font-family: arial;
+			font-weight: bold;
+			line-height: 40px;
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: 418px;
+		}
+		.text:hover {
+			text-shadow: 0 0 20px rgba(255, 255, 255, .5);
+		}
+	</style>	
+</head>
+<body>
+	<div>
+		<figure class="content" >
+			<p class="picture"><img src="layer.png" alt=""></p>
+			<figcaption class="text">So doge!</figcaption>
+		</figure>
+	</div>
+</body>
+</html>
