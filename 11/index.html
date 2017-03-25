@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-size: 14px;
+		}
+		form {
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 20px;
+		}
+		.fo {
+			width: 100%;
+			display: table;
+			padding-top: 10px;
+		}
+		.text {
+			display: table-cell;
+			border: 1px solid #ccc;
+			text-align: center;
+			color: #555;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			background-color: #eee;
+		}
+		.name {
+			display: table-cell;
+			width: 100%;
+			padding: 10px 10px;
+			border: 1px solid #ccc;
+		}
+		label {
+			font-weight: 700;
+		}
+		.a1 {
+			border-radius: 4px 0 0 4px;
+			border-right: 0px;
+		}
+		.b1 {
+			border-radius: 0 4px 4px 0; 
+		}
+		.b2 {
+			border-radius: 4px 0 0 4px;
+			border-right: 0px;
+		}
+		.a2 {
+			border-radius: 0 4px 4px 0;
+			width: 120px;
+		}
+		.a3 {
+			border-radius: 4px 0 0 4px;
+			border-right: 0px;
+			padding: 0px 2px;
+		}
+		.b3 {
+			border-radius: 0 4px 4px 0;
+			border-left: 0px;
+		}
+		.a4 {
+			border-radius: 4px 0 0 4px;
+			border-right: 0px;
+			width: 200px;
+		}
+		.b4 {
+			border-radius: 0 4px 4px 0;
+			}
+		.sub {
+			margin-top: 10px;
+			padding: 10px;
+			border-radius: 4px;
+			border: 1px solid #ccc;
+			background-color: #fff;
+		}
+		.sub:hover {
+			background-color: #ccc;
+			box-shadow: 5px #66afe9;
+		}
+		.name:focus {
+			border-color: rgba(102, 175, 233, 1);
+			box-shadow: 0px 0px 10px 5px rgba(102, 175, 233, .2);
+			outline:0;
+		}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+		<form method="post">
+			<div class="fo">
+				<span class="text a1">@</span>
+				<input type="text" name="name" placeholder="Username" class="name b1">
+			</div>
+			<div class="fo">
+				<input type="text" name="username" placeholder="Recipient's username" class="name b2">
+				<span class="text a2">@example.com</span>
+			</div>
+			<div class="fo">
+				<span class="text a3">$</span>
+				<input type="text" name="content" class="name">
+				<span class="text b3">.00</span>
+			</div>
+			<div class="fo">
+				<label for="url">Your vanity URL</label>
+				<div class="fo">
+					<span class="text a4">https://example.com/users/</span>
+					<input type="text" name="url" id="url" class="name b4">
+				</div>
+			</div>
+			<button type="submint" class="sub">Submint</button>
+		</form>
+	</div>
+</body>
+</html>
