@@ -1,0 +1,17 @@
+1 input[checkbox]
+2 input type="checkbox" checked
+3 #message, 
+#message-1,
+#message-2,
+#message-3,
+#message-4,
+#message-5,
+4 li #massage-*
+5 a[href$=".zip"]
+6 li[data-action*=" delete"]
+7 li[data-action*="delete"]
+8 li:nth-child(even)
+9 h3+ul
+10 h3~a
+11 li>a
+

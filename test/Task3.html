@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task3</title>
+	<style>
+	* {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		form {
+			max-width: 400px;
+			border: 1px solid #000;
+			margin-right: auto;
+			margin-left: auto;
+			box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
+			padding: 15px 10px;
+		}
+		.text {
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			padding-bottom: 7px;
+			padding-top: 7px;
+		}
+		input[type="text"]{
+			width: 100%;
+			padding-bottom: 7px;
+			padding-top: 7px;
+		}
+		.cont {
+			max-width: 368px;
+		}
+		.radio {
+			padding-bottom: 7px;
+			padding-top: 7px;
+		}
+		.radio-in {
+			padding-bottom: 7px;
+			padding-top: 7px;
+		}
+		.sub {
+			background-color: #000;
+			color: #fff;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	</style>
+</head>
+<body>
+ <form method="post">
+  <div class="cont">
+ 		<label form="name" class="text">Ваше имя</label>
+ 		<input type="text" name="name" id="name" placeholder="Например, Иванов Иван Иванович">
+ 	</div>
+ 	<div class="cont">
+ 		<label form="content" class="text">Ваш род деятельности</label>
+ 		<input type="text" name="content" id="content" placeholder="Например, Выращиваю огурцы">
+ 	</div>
+	 <div class="radio">
+ 		<label form="radio">Согласны ли Вы с условиями?</label>
+ 		<div class="radio-in">
+ 			<label><input type="radio" name="rad">Категорически ДА!</label>
+ 			<label><input type="radio" name="rad">Категорически НЕТ!</label>
+ 		</div>
+ 	</div>
+ 	<button type="submint" class="sub">Отправить</button>
+ </form>
+</body>
+</html>
