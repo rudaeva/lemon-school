@@ -1,0 +1,110 @@
+.header {
+	padding-top: 2rem;
+}
+.logo {
+	color: #fff;
+	font-size: 3rem;
+	font-family: Montserrat;
+	font-weight: 700;
+}
+.header__nav {
+	float: right;
+	font-size: 1.4rem;
+	font-family: Montserrat;
+	font-weight: 400; 
+	padding-top: 1.6rem;
+}
+.header__nav li {
+	display: inline-block;
+	padding-left: 5.4rem;
+	
+}
+.header__nav a, .carusel__button a {
+ 	color: #fff;
+ 	text-transform: uppercase;
+ }
+ .header__nav a:hover {
+ 	color: #fce38a;
+ 	border-bottom: 3px solid #fce38a;
+ }
+ a.basket  {
+ 	display: block;
+ 	width: 26px;
+ 	height: 23px;
+ 	background-image: url(images/sprite.png);
+	/*background-position: 0px 0px;*/
+ }
+.header__carousel {
+	/*color: #fff;*/
+ 	position: relative;
+ 	overflow: hidden;
+ 	margin: auto;
+ 	width: 100%;
+ }
+.carousel {
+	padding-top: 17rem;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	padding-bottom: 15rem;
+}
+.header__creat {
+	font-family: Kaushan Script;
+	font-size: 7.2rem;
+	
+}
+h1 {
+	font-family: Montserrat;
+	font-size: 15rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 6rem;
+}
+.w-img {
+	display: block;
+	width: 74px;
+	height: 24px;
+	background-image: url(images/sprite.png);
+	background-repeat: no-repeat;
+	border: 1px solid #000;
+	position: relative;
+	margin: auto;
+	margin-bottom: 2rem;
+	z-index: 1;
+}
+.w-img::before {
+	background-position: -97px -2px;
+}
+.header__button {
+	font-family: Montserrat;
+	font-size: 1.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 1rem 3rem;
+	border: 3px solid #fff;
+	color: #fff;
+}
+.carusel__button {
+	max-width: 120rem;
+	text-align: center;
+}
+	
+.carusel__button li {
+	display: inline-block;
+	font-size: 1.8rem;
+	font-family: Montserrat;
+	font-weight: 400; 
+	width: 20%;
+	border-top: 3px solid #fff;
+	margin-left: 3rem;
+}
+
+.button__w a{
+	text-align: left;
+}
+.button__w span {
+	font-size: 2.4rem;
+	font-weight: 700;
+}
