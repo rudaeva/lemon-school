@@ -93,7 +93,37 @@
 .mc-work {
 	padding-top: 5rem;
 }
+/*.slick-arrow {
+	width: 30px;
+	height: 30px;
+	background-image: url(../../images/min-imgw.png);
+	position: absolute;
+	left: 1100rem;
+}*/
+/*.slick-next,
+.slick-prev {
+	width: 20px;
+	height: 20px;
+	background-image: url(../../images/min-imgw.png);
+	position: relative;
+	border:1px solid #000;
+	
+}
+/*.slick-arrow::before {*/
+	/*content: '';*/
+
+}
 .slick-prev::before {
+	content: '';
+	background-position: 0px 0px;
+	position: absolute;
+}
+.slick-next::before {
+	content: '';
+	background-position: -1833px 0px;
+	position: absolute;
+}
+/*#min-car .slick-prev::before {
 	content: '';
 	background-image: url(../../images/sprite.png);
 	background-position: -1832px 0px;
@@ -101,7 +131,10 @@
 	overflow: hidden;
 
 } 
+#min-car .slick-prev, 
+.slick-next {
 
+}
 .slick-next:before
 /*.slick-prev .slick-arrow {
 	background: #000;

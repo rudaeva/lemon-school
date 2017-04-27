@@ -58,7 +58,7 @@ a.logo {
  	width: 100%;
  }
 .carousel {
-	padding-top: 5rem;
+	padding-top: 3rem;
 	width: 100%;
 	float: left;
 	text-align: center;
@@ -135,8 +135,8 @@ h1>span {
 	position: relative;
 	animation: progress-2 3s linear 3.5s;
 	margin-bottom: 1rem;
-	
 }
+
 @keyframes progress-2 {
 	0% {
 		width: 0;
@@ -171,6 +171,7 @@ h1>span {
 	animation: progress-3 3s linear 7s;
 	margin-bottom: 1rem;
 }
+
 @keyframes progress-3 {
 	0% {
 		width: 0;
@@ -205,6 +206,7 @@ h1>span {
 	animation: progress-4 3s linear 10.5s;
 	margin-bottom: 1rem;
 }
+
 @keyframes progress-4 {
 	0% {
 		width: 0;

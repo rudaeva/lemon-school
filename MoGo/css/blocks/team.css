@@ -6,16 +6,16 @@
 .team-gal {
 	display: inline-block;
 	position: relative;
+	padding-bottom: 10rem;
 	
 }
 .gallery-tm {
 	width: 380px;
 	height: 470px;
 	display: block;
-	/*position: absolute;*/
-		/*float: left;*/
 	overflow: hidden;
 	position: relative;
+	margin-bottom: 2rem;
 	}
 .picture1 {
 	background-image: url(../../images/team1.png);
@@ -62,7 +62,7 @@
 	height: 57px;
 	background-color: #fce38a;
 	position: relative;
-	top: -210px;
+	top: 210px;
 }
 .network:hover {
 	background-color: #f38181;

@@ -5,6 +5,11 @@
 .work-img {
 	display: block;
 	float: left;
+	background-image: url(../../images/work-img.png);
+	width: 570px;
+	height: 380px;
+	/*background-size: cover;*/
+	/*overflow: hidden;*/
 }
 .accordion {
 	float: right; 
@@ -114,4 +119,22 @@
 }
 #ac-scroll .mCSB_draggerRail {
 	background-color: #95e1d3;
+}
+.arrow-top {
+	width: 25px;
+	height: 25px;
+	position: relative;
+	background-image: url(../../images/sprite.png); 
+	background-position: -1881px -25px;
+	float: right;
+	top: -20px;
+}
+.arrow-bottom {
+	width: 25px;
+	height: 25px;
+	position: relative;
+	background-image: url(../../images/sprite.png); 
+	background-position: -1881px 0px;
+	float: right;
+	top: -20px;
 }

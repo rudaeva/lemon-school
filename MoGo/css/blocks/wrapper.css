@@ -17,8 +17,7 @@
 	opacity: .90;
 	background-image: linear-gradient(0deg, #fce38a, #f38181);
  	position: absolute;
- 	
-}
+ }
 .wrapper__content,
 .wrapper__about, 
 .wrapper__countdown,
@@ -95,11 +94,12 @@ li {
 		background-attachment: local;
 		background-size: cover;
 		position: relative;
-		overflow: hidden;
+		
 }
 	.wrapper__clients {
 		background-image: url(../../images/fon-client.png);
-		padding-bottom: 
+		overflow: hidden;
+
 	}
 	.wrapper__des::before,
 	.wrapper__clients::before {
@@ -117,4 +117,25 @@ li {
 }
 p {
 	color: #999999;
+}
+
+@media screen and (max-width: 1202px) {
+	html{
+		font-size: 9px;
+	}
+	.work-img{
+		max-width: 470px;
+	}
+}
+@media screen and (max-width: 1054px) {
+	.o-work__blok1 {
+		width: 100%;
+	}
+	.o-work__blok2 {
+		width: 50%;
+		display: block;
+			}
+	.o-work__blok3 {
+		width: 50%
+	} 
 }
