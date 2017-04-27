@@ -1,0 +1,71 @@
+.services__content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	margin-bottom: 7rem;
+}
+.ser__cont {
+	width: 30%;
+	margin-top: 5rem;
+	border-bottom: 1px solid #e5e5e5;
+}
+.sv {
+	border-bottom: none;
+}
+.img-ser {
+	display: block;
+	width: 45px;
+	height: 70px;
+	background-image: url(../../images/sprite.png);
+	float: left;
+	margin-top: 0.5rem;
+}
+.clock {
+	background-position: -359px 0px;
+}
+.design {
+	background-position: -424px 0px;
+}
+.creativ {
+	background-position: -484px 0px;
+}
+.seo {
+	background-position: -552px 0px;
+}
+.css {
+	background-position: -616px 0px;
+}
+.digital {
+	background-position: -680px 0px;
+	
+}
+.ser-text {
+	margin-left: 2.5rem;
+	margin-bottom: 5rem;
+}
+.ser-text h4 {
+	font-family: Montserrat;
+	font-size: 1.4rem;
+	/*padding-top: 2rem;*/
+	padding-bottom: 2rem;
+	text-transform: uppercase;
+	text-align: left;
+}
+.ser-text p {
+	display: block;
+	font-family: Roboto;
+	font-size: 1.5rem;
+	text-align: left;
+}
+.planshet {
+	margin-top: 4rem;
+	position: relative;
+	margin-bottom: -4px;
+}
+.iphone {
+	position: absolute;
+	left: 725px;
+	top: 465px;
+}

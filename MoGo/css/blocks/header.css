@@ -1,23 +1,24 @@
 .header {
 	padding-top: 2rem;
+	position: relative;
 }
-.logo {
+a.logo {
 	color: #fff;
 	font-size: 3rem;
 	font-family: Montserrat;
 	font-weight: 700;
+	text-align: left;
 }
 .header__nav {
 	float: right;
 	font-size: 1.4rem;
 	font-family: Montserrat;
 	font-weight: 400; 
-	padding-top: 1.6rem;
+	/*padding-top: 1.6rem;*/
 }
 .header__nav li {
 	display: inline-block;
-	padding-left: 5.4rem;
-	
+	padding-left: 4.6rem;
 }
 .header__nav a, .carusel__button a {
  	color: #fff;
@@ -26,15 +27,30 @@
  .header__nav a:hover {
  	color: #fce38a;
  	border-bottom: 3px solid #fce38a;
+ 	padding-bottom: 0.5rem;
  }
  a.basket  {
  	display: block;
  	width: 26px;
- 	height: 23px;
- 	background-image: url(images/sprite.png);
-	/*background-position: 0px 0px;*/
+ 	height: 26px;
+ 	background-image: url(../../images/sprite.png);
+	background-position: 0px 12px;
  }
-.header__carousel {
+ a.basket:hover { 
+	background-position: 0px -22px;
+	border-bottom: none;
+ }
+ a.search {
+ 	display: block;
+ 	width: 26px;
+ 	height: 30px;
+ 	background-image: url(../../images/sprite.png);
+	background-position: -41px 12px;
+ }
+ a.search:hover {
+ 	border-bottom: none;
+ }
+ .header__carousel {
 	/*color: #fff;*/
  	position: relative;
  	overflow: hidden;
@@ -42,13 +58,13 @@
  	width: 100%;
  }
 .carousel {
-	padding-top: 17rem;
+	padding-top: 5rem;
 	width: 100%;
 	float: left;
 	text-align: center;
 	color: #fff;
 	display: inline-block;
-	padding-bottom: 15rem;
+	padding-bottom: 6rem;
 }
 .header__creat {
 	font-family: Kaushan Script;
@@ -60,22 +76,160 @@ h1 {
 	font-size: 15rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding-bottom: 6rem;
+	padding-bottom: 5.5rem;
+	line-height: 15rem;
+}
+h1>span {
+	display: inline-block;
+	
 }
 .w-img {
 	display: block;
 	width: 74px;
-	height: 24px;
-	background-image: url(images/sprite.png);
+	height: 10px;
+	background-image: url(../../images/sprite.png);
 	background-repeat: no-repeat;
-	border: 1px solid #000;
 	position: relative;
 	margin: auto;
-	margin-bottom: 2rem;
-	z-index: 1;
+	margin-bottom: 5.6rem;
+	background-position: -97px 2px;
 }
-.w-img::before {
-	background-position: -97px -2px;
+.brogres-bar1 {
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	position: relative;
+	animation: progress-1 3s linear 0ms;
+	margin-bottom: 1rem;
+}
+@keyframes progress-1 {
+	0% {
+		width: 0;
+		height: 2px;
+	}
+	25% {
+		width: 25%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	50%{
+		width: 50%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	75% {
+		width: 75%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	100% {
+		width: 100%;
+		background-color: #f38181;
+		height: 2px;
+	}
+}
+.brogres-bar2 {
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	position: relative;
+	animation: progress-2 3s linear 3.5s;
+	margin-bottom: 1rem;
+	
+}
+@keyframes progress-2 {
+	0% {
+		width: 0;
+		height: 2px;
+	}
+	25% {
+		width: 25%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	50%{
+		width: 50%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	75% {
+		width: 75%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	100% {
+		width: 100%;
+		background-color: #f38181;
+		height: 2px;
+	}
+}
+.brogres-bar3 {
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	position: relative;
+	animation: progress-3 3s linear 7s;
+	margin-bottom: 1rem;
+}
+@keyframes progress-3 {
+	0% {
+		width: 0;
+		height: 2px;
+	}
+	25% {
+		width: 25%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	50%{
+		width: 50%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	75% {
+		width: 75%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	100% {
+		width: 100%;
+		background-color: #f38181;
+		height: 2px;
+	}
+}
+.brogres-bar4 {
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	position: relative;
+	animation: progress-4 3s linear 10.5s;
+	margin-bottom: 1rem;
+}
+@keyframes progress-4 {
+	0% {
+		width: 0;
+		height: 2px;
+	}
+	25% {
+		width: 25%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	50%{
+		width: 50%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	75% {
+		width: 75%;
+		background-color: #f38181;
+		height: 2px;
+	}
+	100% {
+		width: 100%;
+		background-color: #f38181;
+		height: 2px;
+	}
 }
 .header__button {
 	font-family: Montserrat;
@@ -83,22 +237,22 @@ h1 {
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 1rem 3rem;
-	border: 3px solid #fff;
 	color: #fff;
 }
 .carusel__button {
 	max-width: 120rem;
-	text-align: center;
+	text-align: left;
+	padding-bottom: 2rem;
 }
-	
 .carusel__button li {
 	display: inline-block;
 	font-size: 1.8rem;
 	font-family: Montserrat;
 	font-weight: 400; 
 	width: 20%;
-	border-top: 3px solid #fff;
+	border-top: 1px solid #fff;
 	margin-left: 3rem;
+	
 }
 
 .button__w a{

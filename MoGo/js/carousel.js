@@ -1,4 +1,10 @@
 $('.wrapper__carousel').slick({
 	autoplay: true
-	// autoplaySpeed: 500
+	
+})
+// $ ('.carusel__button')animate(funtion(){
+
+$('.min-carousel').slick({
+	arrows:true,
+
 })

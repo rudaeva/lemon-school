@@ -1,0 +1,117 @@
+.accordion-blok {
+	width: 100%;
+	padding-top: 9rem;
+}
+.work-img {
+	display: block;
+	float: left;
+}
+.accordion {
+	float: right; 
+	width: 60rem;
+	height: 38rem;
+}
+.accordion-item {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+}
+.accordion-item:not(.last) {
+	margin-bottom: 1rem;
+}
+.accordion-link {
+	display: block;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 1.4rem 1.6rem;
+}
+.img-accordion {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background-image: url(../../images/sprite.png);
+	float: left;
+	}
+	.photo {
+		background-position: -744px 0px;
+	}
+	.creat {
+		background-position: -808px 0px;
+	}
+	.webdes {
+		background-position: -872px 0px;
+	}
+	.accordion-link h4 {
+		font-family: Montserrat;
+		font-size: 1.4rem;
+		padding: 0.5rem 2rem;
+		text-transform: uppercase;
+		text-align: left;
+
+	}
+	.accordion__content {
+		font-family: Roboto;
+		font-style: italic;
+		font-size: 1.5rem;
+		padding: 1.4rem 1.6rem;
+		text-align: left;
+		color: #999999;
+		overflow-y: auto;
+		overflow-x: hidden; 
+		display: none;
+		height: 150px;
+	}
+.min-carousel {
+		position: relative;
+	 	overflow: hidden;
+	 	margin: auto;
+	 	width: 100%;
+	 	padding-top: 7rem;
+	 	padding-bottom: 7rem;
+	}
+.carousel-item {
+	float: left;
+	text-align: center;
+	display: inline-block;
+	margin: auto;
+	
+}
+.min-img {
+	width: 145px;
+	height: 145px;
+	border: 3px solid #95e1d3;
+	float: left;
+}
+.min-carousel__img {
+	display: block;
+	width: 65px;
+	height: 62px;
+	background-image: url(../../images/sprite.png);
+	background-position: -935px 0px;
+	margin: auto;
+	margin-top: 40px;
+}
+.carousel-content {
+	display: block;
+	padding-left: 20rem; 
+}
+.carousel-content p {
+	font-family: Roboto;
+	font-style: italic;
+	font-size: 2.4rem;
+	text-align: left;
+	color: #999999;
+}
+.car-text {
+	margin-top: 2rem;
+}
+.car-text .underline {
+	margin: 0px;
+	float: left;
+	margin-top: 2rem;
+}
+.car-text .caption {
+	padding-top: 0px;
+	text-align: left;
+}
+#ac-scroll .mCSB_draggerRail {
+	background-color: #95e1d3;
+}

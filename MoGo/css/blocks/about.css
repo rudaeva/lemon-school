@@ -1,0 +1,97 @@
+.about-gallery {
+	width: 100%;
+	display: block;	
+	margin-top: 10rem;
+	margin-bottom: 11rem;
+}
+.gallery-ab {
+	width: 380px;
+	height: 250px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+.pict1 {
+	background-image: url(../../images/about1.png);
+}
+.pict2 {
+	background-image: url(../../images/about2.png);
+	margin-left: 2.5rem;
+}
+.pict3 {
+	background-image: url(../../images/about3.png);
+	margin-left: 2.5rem;
+}
+.gallery-ab::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	opacity: .90;
+	background-image: linear-gradient(0deg, #fce38a, #f38181);
+ 	position: absolute;
+ 	left: 0px;
+ 	display: none;
+}
+.gallery-ab:hover {
+	left: -12px;
+	top: -12px;
+	box-shadow: 10px 10px 10px 0px #95e1d3;
+}
+.gallery-ab:hover::before {
+	display: block;
+}
+.fon-ab {
+	display: none;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 80px;
+	
+
+}
+.img-ab {
+	display: block;
+	width: 46px;
+	height: 37px;
+	background-image: url(../../images/sprite.png);
+	background-position: -288px 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.fon-ab p {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.gallery-ab:hover .fon-ab {
+	display: block;
+	
+}
+.countdown {
+	display: block;
+	background-color: #95e1d3;
+}
+.countdown_web {
+	display: inline-block;
+	width: 19%;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 1.4rem;
+	padding-top: 10rem;
+	padding-bottom: 9rem;
+	border-right: 1px solid #b5eae0;
+}
+.countdown_web:first-child {
+	border-left: 1px solid #b5eae0;
+}
+.coun-web  {
+	font-size: 7.2rem;
+	font-weight: 700;
+	padding-bottom: 2.5rem;
+}
+.countdown_web p {
+	color: #fff;
+}
